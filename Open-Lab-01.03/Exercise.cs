@@ -6,7 +6,12 @@ namespace Open_Lab_01._03
     {
         public int Addition(int number)
         {
-            throw new NotImplementedException();
+            int b = 1;
+            {
+                int c = number + b;
+                return c;
+
+            }
         }
     }
 }
